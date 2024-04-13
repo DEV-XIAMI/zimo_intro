@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
@@ -9,7 +10,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Miller Liu Zimo</div>
+      <div class="logo">Miller Liu</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -20,108 +21,101 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Miller Liu Zimo</div>
+      <div class="logo">Miller Liu</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about " onclick="toggleMenu()">About</a></li>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-      </div>
-      </nav>
     </nav>
     <section id="profile">
-      <div class="section__pic-container"><img src="./assets/profile-pic.png" alt="Miller Liu Zimo profile image">
+      <div class="section__pic-container">
+        <img src="./assets/Ellipse 1.png" alt="Miller Liu profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Miller Liu Zimo</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Miller Liu</h1>
+        <p class="section__text__p2">Gamer</p>
         <div class="btn-container">
-        <button class="btn btn-colour-2" onclick="window.open('./assets/resume-example.pdf')">
-          Download CV
-        </button>
-
-        <button class="btn btn-colour-1" onclick="location.href='./#contact'"> 
-          Contact Info
-        </button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
         </div>
         <div id="socials-container">
-          <img 
-          src="./assets/linkedin.png" 
-          alt="My linkedIn profile" 
-          class="icon" 
-          onclick="location.href='https://linkedIn.com/'">
-          <img 
-          src="./assets/github.png" 
-          alt="My Github profile" 
-          class="icon" 
-          onclick="location.href='https://github.com/'">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
         </div>
       </div>
-      <img 
-      src="./assets/arrow.png" 
-      class="icon arrow"
-      onclick="location.href='./#about'"
-      alt="arrow icon" 
-      />
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-
-          <img 
-          src="./assets/about-pic.png" 
-          alt="Profile Picture" 
-          class="about-pic">
-
+          <img
+            src="./assets/Screenshot 2024-04-12 at 15.43.18.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img 
-              class="icon"
-              src="./assets/experience.png" 
-              alt="Experience icon" 
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years<br />Frontend Development</p>
+              <p>5+ years <br />Gamer</p>
             </div>
             <div class="details-container">
-              <img 
-              class="icon"
-              src="./assets/education.png" 
-              alt="Experience icon" 
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>Have played more then 10 games<br />Is playing fortnite now!!</p>
             </div>
           </div>
           <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Sequi adipisci eveniet mollitia saepe provident at aliquam, 
-              corrupti accusamus nemo modi, accusantium voluptatem totam id in distinctio repellat a soluta dolore corporis debitis ex tenetur consequatur quidem. 
-              Est voluptates numquam molestias voluptas quod, 
-              repudiandae rem magni laudantium, 
-              aut aspernatur alias ipsum?
+            <p>
+             I love playing games, I've played minecraft and call of duty and teardown and fortnite and so much else!! I love games.`
             </p>
           </div>
         </div>
       </div>
-      <img 
-      src="./assets/arrow.png" 
-      class="icon arrow"
-      onclick="location.href='./#experience'"
-      alt="arrow icon" 
-       />
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -129,156 +123,209 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Games</h2>
             <div class="article-container">
               <article>
-                <img 
-                class="icon"
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Fortnite</h3>
+                  <p>6 months</p>
                 </div>
               </article>
               <article>
-                <img 
-                class="icon"
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>Call Of Duty (cold war)</h3>
+                  <p>1 year</p>
                 </div>
               </article>
               <article>
-                <img 
-                class="icon"
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Experience</p>
+                  <h3>Teardown</h3>
+                  <p>1 month</p>
                 </div>
               </article>
               <article>
-                <img 
-                class="icon"
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>PYTHON</h3>
-                  <p>Experience</p>
+                  <h3>Journey</h3>
+                  <p>4 months</p>
                 </div>
               </article>
               <article>
-                <img 
-                class="icon"
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experience</p>
-                </div>
               </article>
               <article>
-                <img 
-                class="icon"
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experience</p>
+                  <h3>Spider Man 1</h3>
+                  <p>5 months</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Other Hobbies</h2>
             <div class="article-container">
               <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experience</p>
+                  <h3>3D printing</h3>
                 </div>
               </article>
               <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Experience</p>
+                  <h3>playing soccer</h3>
                 </div>
               </article>
               <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Experience</p>
+                  <h3>use clay to make figures</h3>
                 </div>
               </article>
               <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
                 />
                 <div>
-                  <h3>PYTHON</h3>
-                  <p>Experience</p>
-                </div>
-              </article>
-              <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experience</p>
-                </div>
-              </article>
-              <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experience</p>
+                  <h3>making Gundam</h3>
                 </div>
               </article>
             </div>
           </div>
         </div>
       </div>
-      <img 
-      src="./assets/arrow.png" 
-      alt="Arrow icon" 
-      class="icon arrow"
-      onclick="location.href='./#projects'"
-       />
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
+    <section id="projects">
+      <p class="section__text__p1">See the games that I played</p>
+      <h1 class="title">Games</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/91upEAkiaCL.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Fortnite</h2>
+            <h3 style="color: grey;">A shooting game that you can play online with other player</h3>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pZ2pIEEnH7YhEtpxh1CY6KDz.avif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Spider Man</h2>
+            <h3 style="color: grey;">A game that can make you to be the super hero(Spider Man)</h3>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Key_Art_Horizontal.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Call Of Duty(Cold War)</h2>
+            <h3 style="color: grey;">An awsome shooting game, the game is really good.</h3>
+            <div class="btn-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/logo_gmail_lockup_default_2x_r5.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">liuzimo33@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Miller Liu. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
